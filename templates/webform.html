@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: rgb(198, 31, 56);
+            color:black;
+            border-radius: 50px;
+        }
+        h1:hover
+        {
+            background-color: aqua;
+            color: black;
+            border-radius: 30px;
+        }
+        label
+        {
+            background-color:cadetblue;
+            color:blue;
+            border-radius: 5px;
+        }
+        input
+        {
+            background-color:orange;
+            color: black;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Web_form HtmlPage</h1>
+    <form method="POST">
+
+        {{nfo.name.label}} : {{nfo.name}} <br><br>
+
+        {{nfo.submit}}
+    </form>
+    </center>
+</body>
+</html>
